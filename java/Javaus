@@ -1,0 +1,14 @@
+import java.util.Scanner; // Import Scanner class
+public class Javauserinput {
+
+   
+    public static void main(String args[]) {
+        Scanner text = new Scanner(System.in); //creating the Scanner obj
+        System.out.println("Enter your name");
+        
+        String username = text.nextLine(); // Reads the Scanner obj "User input"
+        System.out.println("Your Name is: " + username);
+        
+        
+    }
+}

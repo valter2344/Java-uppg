@@ -1,0 +1,23 @@
+public class newJavaFile {
+    public static void main (String args[]) {
+        // Print some text on a new row 
+        System.out.println("HEllo World");
+        // Print some txt on the same row
+        System.out.print("HEllo World");
+        System.out.print("HEllo World");
+        // SOUT + tab to autofill
+        System.out.println("3");
+        System.out.println("358");
+        System.out.println("50000");
+        //Basic Math
+        System.out.println(3 + 3); // This is a comment
+        System.out.println(3 * 3);
+        System.out.println(3 - 3);
+        System.out.println(3 / 3);
+        /* This is a comment
+         System.out.println(3 - 3);
+        System.out.println(3 / 3);
+        */
+    }
+}
+

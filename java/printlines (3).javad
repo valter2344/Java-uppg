@@ -1,0 +1,47 @@
+
+public class newJavaFile3 {
+
+    public static void main(String args[]) {
+        // Name variables + println
+        String name = "vabu";
+        System.out.println("Hello" + name);
+        
+        // First&Last name variables
+        String firstName = "vabu";
+        String lastName = "Lonnqvist";
+        
+        // Combines the Names into fullname variables
+        String fullName = firstName +""+ lastName;
+        System.out.println(fullName);
+        
+        //  two intvariables "37" "3"
+        int x = 37;
+        int y = 3;
+        // addition
+        System.out.println(x + y);
+        System.out.println(x - y);
+        System.out.println(x * y);
+        System.out.println(x / y);
+        
+        int z = 10;
+        System.out.println(x + z +y);
+        boolean isCodingFun = true;
+        boolean funOutDoorDay = false;
+        System.out.println("is Coding fun?");
+        System.out.println(isCodingFun);
+        System.out.print("is it fun to go outside against your will? ");
+        System.out.println(funOutDoorDay);
+       
+        // Example 1 
+        // variables for Data types
+        int items = 50;
+        float costPerItem = 7.99;
+        float totalCost = items * costPerItem;
+        char currency = '$';
+
+        // Print Variables 
+        System.out.println("Number of items: " +items);
+        System.out.println("Cost per item: " +costPerItem + currency);
+        System.out.println("Total cost = " +totalCost + currency);
+    }
+}

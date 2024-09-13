@@ -1,0 +1,37 @@
+
+public class newJavaFile2 {
+
+    public static void main(String args[]) {
+    // Variables(String, int, float, char, bool)
+    
+    String vabu = "valtsu";
+    System.out.println(vabu);
+    
+    // Int Variable
+    int Num = 10;
+    System.out.println(Num);
+    
+    int Num2;
+    Num2 = 37;
+    System.out.println(Num2);
+    
+    Num2 = 1;
+    System.out.println(Num2);
+    
+    final int Num3 = 11;
+    //Num3 = 12; Error cant change cousefinal
+    
+    // Float Variables
+    float FloatNum = 5.99f;
+    System.out.println(FloatNum);
+    
+    //Boolean true or false, 1 or 0
+    Boolean Bool = true;
+    System.out.println(Bool);
+    
+    // Char Variable
+    char char1 = 'H';
+    System.out.println(char1);
+    
+    }
+}
